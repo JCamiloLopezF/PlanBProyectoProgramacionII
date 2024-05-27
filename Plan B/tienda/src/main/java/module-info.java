@@ -4,4 +4,7 @@ module co.uniquindio.proyecto {
 
     opens co.uniquindio.proyecto to javafx.fxml;
     exports co.uniquindio.proyecto;
+
+    opens co.uniquindio.proyecto.Controller;
+    exports co.uniquindio.proyecto.Controller;
 }
